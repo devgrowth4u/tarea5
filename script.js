@@ -15,7 +15,7 @@ function SerieFibonacci(limit){
     return Fibonacci;
 }
 
-const serieFibonacci= SerieFibonacci(10);
+const serieFibonacci= SerieFibonacci(17);
 console.log(serieFibonacci);
 
 function ParesFibonnaci(limit){
@@ -33,7 +33,7 @@ const Fibonacci = [0,1];
 
 }
 
-const serieFibonaccipar= ParesFibonnaci(10);
+const serieFibonaccipar= ParesFibonnaci(17);
 console.log(serieFibonaccipar);
 
 function imparesFibonacci(limit){
@@ -50,6 +50,6 @@ function imparesFibonacci(limit){
             return Fibonacci;
         
         }
-const serieFibonacciimpar= imparesFibonacci(10);
+const serieFibonacciimpar= imparesFibonacci(17);
 console.log(serieFibonacciimpar);
         
