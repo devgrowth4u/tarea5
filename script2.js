@@ -3,13 +3,17 @@
 
 let arreglo =['Capitan America', 'Iron Man', 'Pantera Negra', 'Hulk', 'Spaiderman'];
 
-for (let i=0; i < arreglo.length; i++){
+// COmentado por pruebas iniciales y entender toUpperCase()
+/*for (let i=0; i < arreglo.length; i++){
        
          arreglo[i] = arreglo[i].toUpperCase();
         
     }
 
 console.log(arreglo[0]);
+*/
+
+
 
 const marvel = arreglo.map(element => {
     return element.toUpperCase();
